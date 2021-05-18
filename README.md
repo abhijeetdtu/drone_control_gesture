@@ -24,9 +24,11 @@ Drone controller script accepted the stream of identified gestures and translate
 
 The repository has a two main jupyter notebooks in `./production` folder.
 1. `static-gesture-recognition-server` - this has all code needed to recognize gestures
+   - This should be run on `Jetson Nano`
 2. `client_control` - this has all code needed to convert recognized gestures into control signals for the drone
+   - This should be run on your laptop
 
-Each notebook is documented in itself.
+Each notebook is documented in itself. Start with the server notebook to understand the flow.
 
 # Report
 
